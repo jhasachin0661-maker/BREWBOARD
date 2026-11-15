@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import { coffees } from '../data/coffees';
 import { useVotes } from '../hooks/useVotes';
+import { getAssetUrl } from '../utils/assets';
 import VoteButton from '../components/VoteButton';
 import CoffeeCard from '../components/CoffeeCard';
 
@@ -118,7 +119,7 @@ export default function CoffeeDetails() {
               </div>
             ) : (
               <img
-                src={coffee.image}
+                src={getAssetUrl(coffee.image)}
                 alt={coffee.name}
                 onError={() => setImgError(true)}
                 className="w-full h-full object-cover"

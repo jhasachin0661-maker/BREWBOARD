@@ -5,6 +5,7 @@ import StatsCard from '../components/StatsCard';
 import CoffeeCard from '../components/CoffeeCard';
 import { coffees, TOTAL_INITIAL_VOTES, COFFEE_CATEGORIES } from '../data/coffees';
 import { useVotes } from '../hooks/useVotes';
+import { getAssetUrl } from '../utils/assets';
 import {
   Coffee,
   Heart,
@@ -111,7 +112,7 @@ export default function Home() {
             <div className="lg:col-span-5 relative group">
               <div className="aspect-[4/3] rounded-3xl overflow-hidden bg-espresso-deep shadow-2xl border border-gold/30">
                 <img
-                  src={topCoffee.image}
+                  src={getAssetUrl(topCoffee.image)}
                   alt={topCoffee.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                 />

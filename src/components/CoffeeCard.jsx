@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Flame, Snowflake, Coffee, ArrowUpRight, Check, MapPin, Sparkles } from 'lucide-react';
 import VoteButton from './VoteButton';
 import { useVotes } from '../hooks/useVotes';
+import { getAssetUrl } from '../utils/assets';
 
 export default function CoffeeCard({ coffee }) {
   const { isVoted } = useVotes();
@@ -39,7 +40,7 @@ export default function CoffeeCard({ coffee }) {
             </div>
           ) : (
             <img
-              src={coffee.image}
+              src={getAssetUrl(coffee.image)}
               alt={coffee.name}
               loading="lazy"
               onError={() => setImgError(true)}
