@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgIC" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#232726"/>
+        <stop offset="100%" stop-color="#111312"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgIC)"/>
+    <ellipse cx="300" cy="390" rx="150" ry="20" fill="#0A0A0A" opacity="0.6"/>
+    <!-- Glass Tumbler -->
+    <path d="M225 110 L242 360 C245 372 260 378 300 378 C340 378 355 372 358 360 L375 110 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.3)" stroke-width="2.5"/>
+    <!-- Iced Americano Dark Amber Liquid -->
+    <path d="M230 150 L242 355 C245 365 260 370 300 370 C340 370 355 365 358 355 L370 150 Q300 162 230 150 Z" fill="#381D10" opacity="0.92"/>
+    <!-- Floating Ice Cubes -->
+    <polygon points="255,160 295,150 305,190 265,200" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+    <polygon points="310,165 350,155 358,195 318,205" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+    <polygon points="280,210 325,200 332,245 287,255" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <!-- Orange Twist Garnish -->
+    <path d="M240 130 Q280 110 300 140 Q310 160 330 135" stroke="#E67E22" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">COLD • AMERICANO</text>
+  </svg>

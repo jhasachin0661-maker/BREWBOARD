@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#2D231E"/>
+        <stop offset="100%" stop-color="#191310"/>
+      </linearGradient>
+      <linearGradient id="crema" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#D79E66"/>
+        <stop offset="40%" stop-color="#A56336"/>
+        <stop offset="100%" stop-color="#3D2115"/>
+      </linearGradient>
+      <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FBF7F0"/>
+        <stop offset="100%" stop-color="#D9CCBA"/>
+      </linearGradient>
+      <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+        <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    <rect width="600" height="450" fill="url(#bg)"/>
+    <ellipse cx="300" cy="380" rx="190" ry="25" fill="#0E0B0A" opacity="0.6"/>
+    <!-- Saucer -->
+    <ellipse cx="300" cy="340" rx="150" ry="24" fill="url(#cupGrad)" filter="url(#shadow)"/>
+    <ellipse cx="300" cy="338" rx="130" ry="18" fill="#ECE0D1"/>
+    <ellipse cx="300" cy="337" rx="80" ry="10" fill="#D4C3AF"/>
+    <!-- Cup Body -->
+    <path d="M210 210 C210 320 230 335 300 335 C370 335 390 320 390 210 Z" fill="url(#cupGrad)" filter="url(#shadow)"/>
+    <!-- Handle -->
+    <path d="M375 235 C425 240 435 290 375 305" fill="none" stroke="#ECE0D1" stroke-width="18" stroke-linecap="round"/>
+    <path d="M375 235 C425 240 435 290 375 305" fill="none" stroke="#D9CCBA" stroke-width="12" stroke-linecap="round"/>
+    <!-- Cup Rim & Coffee Crema -->
+    <ellipse cx="300" cy="210" rx="90" ry="24" fill="#FAF5ED"/>
+    <ellipse cx="300" cy="212" rx="82" ry="20" fill="url(#crema)"/>
+    <!-- Crema marbling -->
+    <ellipse cx="280" cy="210" rx="45" ry="10" fill="#E2AC76" opacity="0.7"/>
+    <path d="M250 212 Q280 205 315 214 Q340 211 350 214" stroke="#FFE3B8" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <!-- Steam -->
+    <path d="M280 170 Q270 140 285 110 Q295 90 285 70" stroke="#F4EBDD" stroke-width="3" fill="none" opacity="0.3" stroke-linecap="round"/>
+    <path d="M315 165 Q330 135 315 105 Q305 85 320 60" stroke="#F4EBDD" stroke-width="2.5" fill="none" opacity="0.25" stroke-linecap="round"/>
+    <!-- Badge tag -->
+    <rect x="40" y="380" rx="14" width="110" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="95" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">HOT • ESPRESSO</text>
+  </svg>

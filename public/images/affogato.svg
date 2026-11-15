@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgAff" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#2E231F"/>
+        <stop offset="100%" stop-color="#150E0B"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgAff)"/>
+    <ellipse cx="300" cy="385" rx="160" ry="20" fill="#0A0605" opacity="0.6"/>
+    <!-- Glass Footed Coupe -->
+    <path d="M285 300 L285 365 L245 375 L355 375 L315 365 L315 300 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <path d="M190 200 C190 290 260 300 300 300 C340 300 410 290 410 200 Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="2.5"/>
+    <!-- Vanilla Gelato Scoop -->
+    <ellipse cx="300" cy="210" rx="65" ry="50" fill="#FFFBF0"/>
+    <!-- Melting Hot Espresso Cascade -->
+    <path d="M275 170 C285 185 270 215 280 235 C285 245 305 250 315 240 C325 230 315 195 325 180 Z" fill="#4B2211" opacity="0.85"/>
+    <path d="M250 200 C255 220 265 235 270 250" stroke="#75513D" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M335 195 C330 215 332 235 328 255" stroke="#75513D" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="300" cy="265" rx="75" ry="18" fill="#3D1A0D" opacity="0.7"/>
+    <!-- Vanilla Specks -->
+    <circle cx="290" cy="200" r="1.5" fill="#4B3A2F"/>
+    <circle cx="310" cy="205" r="1.5" fill="#4B3A2F"/>
+    <circle cx="325" cy="190" r="1.5" fill="#4B3A2F"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">COLD • SPECIALTY</text>
+  </svg>

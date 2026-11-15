@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgCB" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1E2429"/>
+        <stop offset="100%" stop-color="#101518"/>
+      </linearGradient>
+      <linearGradient id="coldBrewLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#542E1B"/>
+        <stop offset="60%" stop-color="#2D150A"/>
+        <stop offset="100%" stop-color="#140803"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgCB)"/>
+    <ellipse cx="300" cy="390" rx="150" ry="22" fill="#06090B" opacity="0.6"/>
+    <!-- Heavy Base Rocks Glass -->
+    <path d="M220 120 L238 360 C240 372 255 378 300 378 C345 378 360 372 362 360 L380 120 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.3)" stroke-width="2.5"/>
+    <path d="M239 355 C242 365 255 372 300 372 C345 372 358 365 361 355 L356 325 C345 330 320 332 300 332 C280 332 255 330 244 325 Z" fill="rgba(255,255,255,0.2)"/>
+    <!-- Cold Brew Liquid -->
+    <path d="M228 160 L238 350 C242 360 258 365 300 365 C342 365 358 360 362 350 L372 160 Q300 172 228 160 Z" fill="url(#coldBrewLiquid)"/>
+    <!-- Crystal Clear Giant Ice Cube -->
+    <polygon points="265,160 335,150 345,220 275,230" fill="rgba(255,255,255,0.22)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+    <polygon points="265,160 300,140 370,132 335,150" fill="rgba(255,255,255,0.35)"/>
+    <polygon points="335,150 370,132 378,202 345,220" fill="rgba(255,255,255,0.15)"/>
+    <!-- Condensation beads on glass -->
+    <circle cx="236" cy="220" r="2.5" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="238" cy="240" r="1.8" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="237" cy="275" r="2.2" fill="rgba(255,255,255,0.7)"/>
+    <circle cx="363" cy="205" r="2" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="361" cy="250" r="2.5" fill="rgba(255,255,255,0.5)"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">COLD • STEEPED</text>
+  </svg>

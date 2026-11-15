@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgIr" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1E2620"/>
+        <stop offset="100%" stop-color="#0E1410"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgIr)"/>
+    <ellipse cx="300" cy="390" rx="150" ry="20" fill="#050806" opacity="0.6"/>
+    <!-- Footed Irish Coffee Glass -->
+    <path d="M288 310 L288 365 L245 375 L355 375 L312 365 L312 310 Z" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <path d="M225 150 C225 280 250 310 300 310 C350 310 375 280 375 150 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.4)" stroke-width="2.5"/>
+    <!-- Glass Handle -->
+    <path d="M370 190 C420 200 420 260 365 270" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="12" stroke-linecap="round"/>
+    <!-- Hot Spiked Coffee Liquid -->
+    <path d="M228 190 C228 275 252 305 300 305 C348 305 372 275 372 190 Z" fill="#2E180E"/>
+    <!-- Floated Heavy Cream Collar -->
+    <path d="M226 155 Q300 165 374 155 L372 190 Q300 200 228 190 Z" fill="#FFFDF8"/>
+    <ellipse cx="300" cy="155" rx="74" ry="16" fill="#FAF5ED"/>
+    <!-- Nutmeg / Cacao Specks on cream -->
+    <circle cx="280" cy="155" r="1.5" fill="#75513D"/>
+    <circle cx="305" cy="158" r="1.5" fill="#75513D"/>
+    <circle cx="320" cy="153" r="1.5" fill="#75513D"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#89927A" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">HOT • SPECIALTY</text>
+  </svg>

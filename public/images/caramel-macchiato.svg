@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgMac" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#34251D"/>
+        <stop offset="100%" stop-color="#1A120E"/>
+      </linearGradient>
+      <linearGradient id="milkLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FFFDF9"/>
+        <stop offset="100%" stop-color="#F2E4D2"/>
+      </linearGradient>
+      <linearGradient id="espressoLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#462413"/>
+        <stop offset="100%" stop-color="#7B4222"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgMac)"/>
+    <ellipse cx="300" cy="390" rx="160" ry="20" fill="#0A0806" opacity="0.5"/>
+    <!-- Tall Glass Cup -->
+    <path d="M225 150 L245 365 C246 375 255 380 270 380 L330 380 C345 380 354 375 355 365 L375 150 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+    <!-- Bottom Milk Layer -->
+    <path d="M243 365 L240 290 Q300 295 360 290 L357 365 C354 374 345 378 330 378 L270 378 C255 378 245 374 243 365 Z" fill="url(#milkLayer)"/>
+    <!-- Middle Espresso Layer -->
+    <path d="M239 292 L233 220 Q300 225 367 220 L361 292 Q300 296 239 292 Z" fill="url(#espressoLayer)"/>
+    <!-- Top Foamed Milk Crown -->
+    <ellipse cx="300" cy="150" rx="76" ry="18" fill="#FCF9F2"/>
+    <path d="M225 150 Q300 162 375 150 L370 190 Q300 200 230 190 Z" fill="#F7EEDD"/>
+    <!-- Caramel Cross-Hatch Drizzle -->
+    <path d="M245 145 C270 155 320 142 355 152" stroke="#C47B4D" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M255 155 C285 145 325 158 350 146" stroke="#D97736" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M270 140 C280 160 320 160 330 142" stroke="#A75A28" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- Glass Highlights -->
+    <path d="M233 160 L249 350" stroke="rgba(255,255,255,0.5)" stroke-width="3" stroke-linecap="round"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">HOT • CARAMEL</text>
+  </svg>

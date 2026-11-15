@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgDg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#30241A"/>
+        <stop offset="100%" stop-color="#140E0A"/>
+      </linearGradient>
+      <linearGradient id="dalgonaFoam" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#E5A663"/>
+        <stop offset="50%" stop-color="#C57D3E"/>
+        <stop offset="100%" stop-color="#9C5925"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgDg)"/>
+    <ellipse cx="300" cy="390" rx="150" ry="20" fill="#0A0604" opacity="0.6"/>
+    <!-- Short Rocks Glass -->
+    <path d="M225 150 L242 365 C245 374 255 380 300 380 C345 380 355 374 358 365 L375 150 Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.35)" stroke-width="2.5"/>
+    <!-- Cold Fresh Milk Layer -->
+    <path d="M241 365 L235 240 Q300 245 365 240 L359 365 C355 374 345 378 300 378 C255 378 245 374 241 365 Z" fill="#FFFDF8"/>
+    <!-- Whipped Thick Coffee Foam Crown -->
+    <path d="M225 150 Q300 162 375 150 Q385 185 365 240 Q300 245 235 240 Q215 185 225 150 Z" fill="url(#dalgonaFoam)"/>
+    <!-- Billowy Mousse Peaks -->
+    <ellipse cx="300" cy="150" rx="75" ry="24" fill="#E5A663"/>
+    <path d="M250 145 Q280 120 305 138 Q335 125 355 145" stroke="#FDE5C5" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Honeycomb Crumbles -->
+    <polygon points="275,135 285,130 288,140 278,142" fill="#FFC966"/>
+    <polygon points="315,130 325,127 327,137 318,138" fill="#FFC966"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#C47B4D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">COLD • WHIPPED</text>
+  </svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgPo" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#2B241C"/>
+        <stop offset="100%" stop-color="#120F0C"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgPo)"/>
+    <ellipse cx="300" cy="395" rx="160" ry="20" fill="#080705" opacity="0.6"/>
+    <!-- Chemex Glass Hourglass -->
+    <path d="M240 100 L360 100 L320 220 L375 360 C378 375 365 385 300 385 C235 385 222 375 225 360 L280 220 Z" fill="rgba(255,255,255,0.09)" stroke="rgba(255,255,255,0.4)" stroke-width="2.5"/>
+    <!-- Wood Collar Neck & Leather Tie -->
+    <rect x="270" y="205" width="60" height="35" rx="5" fill="#8C5A32" stroke="#5E381C" stroke-width="2"/>
+    <ellipse cx="300" cy="222" rx="30" ry="6" fill="#3D2111"/>
+    <circle cx="310" cy="222" r="5" fill="#E8B878"/>
+    <!-- Coffee Filter Paper in top cone -->
+    <polygon points="245,105 355,105 300,205" fill="#EFE3CD" stroke="#D9C7A7" stroke-width="1.5"/>
+    <!-- Dark ground bed -->
+    <polygon points="265,130 335,130 300,195" fill="#3E2314"/>
+    <!-- Brewed Coffee Liquid in bottom globe -->
+    <path d="M232 355 C235 372 248 380 300 380 C352 380 365 372 368 355 L340 280 Q300 288 260 280 Z" fill="#4B2211" opacity="0.85"/>
+    <!-- Slow drip drop -->
+    <circle cx="300" cy="250" r="3" fill="#693B1E"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#75513D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">HOT • POUR OVER</text>
+  </svg>

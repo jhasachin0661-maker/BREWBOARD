@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bgTr" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#2D1C19"/>
+        <stop offset="100%" stop-color="#160B09"/>
+      </linearGradient>
+      <linearGradient id="copper" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D97A48"/>
+        <stop offset="50%" stop-color="#B85929"/>
+        <stop offset="100%" stop-color="#733212"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgTr)"/>
+    <ellipse cx="300" cy="385" rx="170" ry="22" fill="#0A0403" opacity="0.6"/>
+    <!-- Copper Cezve / Ibrik Pot -->
+    <path d="M190 230 L220 345 C222 355 235 360 280 360 C325 360 338 355 340 345 L370 230 Z" fill="url(#copper)"/>
+    <!-- Cezve Long Wooden Handle -->
+    <line x1="365" y1="240" x2="490" y2="160" stroke="#5A2E16" stroke-width="14" stroke-linecap="round"/>
+    <line x1="430" y1="198" x2="490" y2="160" stroke="#8C4620" stroke-width="10" stroke-linecap="round"/>
+    <!-- Cezve Brass Rim & Spout -->
+    <ellipse cx="280" cy="230" rx="90" ry="20" fill="#E59866"/>
+    <!-- Thick Golden Coffee Foam (Köpük) -->
+    <ellipse cx="280" cy="232" rx="84" ry="17" fill="#693B1E"/>
+    <ellipse cx="270" cy="231" rx="55" ry="12" fill="#A56E42"/>
+    <circle cx="250" cy="230" r="4" fill="#C48F65"/>
+    <circle cx="285" cy="233" r="5" fill="#C48F65"/>
+    <circle cx="310" cy="229" r="3" fill="#C48F65"/>
+    <!-- Decorative Engraving on Cezve -->
+    <path d="M225 285 Q280 305 335 285" stroke="#E59866" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M235 315 Q280 335 325 315" stroke="#E59866" stroke-width="3" fill="none" opacity="0.6"/>
+    <rect x="40" y="380" rx="14" width="130" height="28" fill="#75513D" opacity="0.9"/>
+    <text x="105" y="398" fill="#FFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1">HOT • TRADITIONAL</text>
+  </svg>
